@@ -1,0 +1,48 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#define kXMPP_HOST @"auraosoft.007jabber.com"      //XMPP IP address
+#define kXMPP_PORT 5222                 //XMPP Port Number
+
+#define kLOGIN_SUCCESS      @"kLOGIN_SUCCESS"
+#define kREGIST_RESULT      @"kREGIST_RESULT"
+#define kXMPP_ROSTER_CHANGE @"kXMPP_ROSTER_CHANGE"
+#define kXMPP_MESSAGE_CHANGE @"kXMPP_MESSAGE_CHANGE"
+#define kMESSAGE_RECEIVED  @"kMESSAGE_RECEIVED"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <FBSDKCoreKit/FBSDKCoreKit.h>
+
+    #import <FBSDKLoginKit/FBSDKLoginKit.h>
+
+    #import "UIColor+Hex.h"
+    #import <FBSDKShareKit/FBSDKShareKit.h>
+    #import <AVFoundation/AVFoundation.h>
+    #import <RestKit/RestKit.h>
+    #import "KLXMPPTool.h"
+    #import "XMPPFramework.h"
+    #import "SVProgressHUD.h"
+    #import "KLUser.h"
+    #import "KLUsersUtils.h"
+    #import "KLDefinitions.h"
+    #import "KLProtocols.h"
+    #import "KLApi.h"
+    #import "RegisterClient.h"
+    #import "SharedManager.h"
+    #import "UIImage+ResizeMagick.h"
+    #import "KLWebService.h"
+    #import "JSON.h"
+#endif

@@ -1,0 +1,280 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - AGEmojiKeyboard (0.1.0)
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.1.0)
+  - ECSlidingViewController (2.0.3)
+  - HCSStarRatingView (1.4.5)
+  - HTAutocompleteTextField (1.3.2)
+  - IDMPhotoBrowser (1.2.6):
+    - AFNetworking (~> 1.3.1)
+    - DACircularProgress (~> 2.1.0)
+    - SVProgressHUD (~> 0.9)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - KissXML (5.1.2):
+    - KissXML/Core (= 5.1.2)
+  - KissXML/Core (5.1.2)
+  - MPGNotification (1.2.4)
+  - Parus (1.0)
+  - Reachability (3.2)
+  - RestKit (0.27.0):
+    - RestKit/Core (= 0.27.0)
+  - RestKit/Core (0.27.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.0):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.0):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.0):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SAMKeychain (1.5.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SOCKit (1.1)
+  - StaticDataTableViewController (2.0.5)
+  - SVProgressHUD (0.9)
+  - TransitionKit (2.2.1)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - UIDevice-Hardware (0.1.8)
+  - XMPPFramework (3.7.0):
+    - XMPPFramework/All (= 3.7.0)
+  - XMPPFramework/All (3.7.0):
+    - XMPPFramework/BandwidthMonitor
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/FileTransfer
+    - XMPPFramework/GoogleSharedStatus
+    - XMPPFramework/ProcessOne
+    - XMPPFramework/Reconnect
+    - XMPPFramework/Roster
+    - XMPPFramework/SystemInputActivityMonitor
+    - XMPPFramework/XEP-0009
+    - XMPPFramework/XEP-0012
+    - XMPPFramework/XEP-0016
+    - XMPPFramework/XEP-0045
+    - XMPPFramework/XEP-0054
+    - XMPPFramework/XEP-0059
+    - XMPPFramework/XEP-0060
+    - XMPPFramework/XEP-0065
+    - XMPPFramework/XEP-0066
+    - XMPPFramework/XEP-0077
+    - XMPPFramework/XEP-0082
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0092
+    - XMPPFramework/XEP-0100
+    - XMPPFramework/XEP-0106
+    - XMPPFramework/XEP-0115
+    - XMPPFramework/XEP-0136
+    - XMPPFramework/XEP-0147
+    - XMPPFramework/XEP-0153
+    - XMPPFramework/XEP-0172
+    - XMPPFramework/XEP-0184
+    - XMPPFramework/XEP-0191
+    - XMPPFramework/XEP-0198
+    - XMPPFramework/XEP-0199
+    - XMPPFramework/XEP-0202
+    - XMPPFramework/XEP-0203
+    - XMPPFramework/XEP-0223
+    - XMPPFramework/XEP-0224
+    - XMPPFramework/XEP-0280
+    - XMPPFramework/XEP-0297
+    - XMPPFramework/XEP-0308
+    - XMPPFramework/XEP-0313
+    - XMPPFramework/XEP-0333
+    - XMPPFramework/XEP-0334
+    - XMPPFramework/XEP-0335
+    - XMPPFramework/XEP-0352
+    - XMPPFramework/XEP-0357
+    - XMPPFramework/XEP-0363
+    - XMPPFramework/XMPPMUCLight
+  - XMPPFramework/BandwidthMonitor (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/Core (3.7.0):
+    - CocoaAsyncSocket (~> 7.5.0)
+    - CocoaLumberjack (~> 2.0)
+    - KissXML (~> 5.1.2)
+  - XMPPFramework/CoreDataStorage (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/FileTransfer (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/GoogleSharedStatus (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/ProcessOne (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/Reconnect (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/Roster (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+  - XMPPFramework/XEP-0009 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0012 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0016 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0045 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0054 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/Roster
+  - XMPPFramework/XEP-0059 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0060 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0065 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0066 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0077 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0082 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0085 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0092 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0100 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0106 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0115 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+  - XMPPFramework/XEP-0136 (3.7.0):
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0147 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0153 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0054
+  - XMPPFramework/XEP-0172 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0184 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0191 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0198 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0199 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0202 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0203 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0223 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0224 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0280 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0297 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0308 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0313 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0059
+  - XMPPFramework/XEP-0333 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0334 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0335 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0352 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0357 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0363 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XMPPMUCLight (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+
+DEPENDENCIES:
+  - AGEmojiKeyboard (~> 0.1.0)
+  - ECSlidingViewController (~> 2.0.3)
+  - HCSStarRatingView (~> 1.4.5)
+  - HTAutocompleteTextField
+  - IDMPhotoBrowser (~> 1.2.5)
+  - MPGNotification (~> 1.1)
+  - Parus (~> 1.0)
+  - Reachability (~> 3.2)
+  - RestKit (~> 0.27.0)
+  - SAMKeychain
+  - SDWebImage (~> 3.6)
+  - StaticDataTableViewController (~> 2.0.3)
+  - SVProgressHUD
+  - UIActivityIndicator-for-SDWebImage
+  - UIDevice-Hardware (~> 0.1.3)
+  - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  XMPPFramework:
+    :branch: master
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+CHECKOUT OPTIONS:
+  XMPPFramework:
+    :commit: 917a5b40da013f3c9a6fe80662448d87d67f3341
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  AGEmojiKeyboard: e19cf4168b114d2e494e53fe8dc042d8bf011cc9
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  DACircularProgress: b239f36abdacd5b7721373dc6d27b5636874469c
+  ECSlidingViewController: 6485c14f23b4487e9946535421ca8f111f86cc53
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  HTAutocompleteTextField: ce809f04875e843e20f214ab973bb496ba7a93b1
+  IDMPhotoBrowser: 328480944223a7bb38c4f64fee31566097100232
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  KissXML: 246c842586bb77110e04fb88e19376d96245c856
+  MPGNotification: f0e3924087afa9b3eccd5ce624e03965ae31ae61
+  Parus: e8eeec5e596e59fea3e3129775e5ddf2e5c0b4eb
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RestKit: a0244db34e14ed9cf059fcee2be6733cc162c34a
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SAMKeychain: 6b04852a20684167aea97bdf8ba12c95d3616376
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  StaticDataTableViewController: 7ea8d7bc8c7f0a4e9255a320224462c7346c1d4a
+  SVProgressHUD: 7038ae9d6a0bd2c87560d2699eba642eef82d41e
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  UIDevice-Hardware: ecb52d9a7b223b31f81982358e2b0769ac1a7918
+  XMPPFramework: 977eef5d00c20fe9fb19c30d84a89c2d5564252d
+
+PODFILE CHECKSUM: 31645127d8e7e3d06550ebe5b2817372b231221f
+
+COCOAPODS: 1.0.1

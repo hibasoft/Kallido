@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DirectoryPostCell" id="KGk-i7-Jjw" customClass="DirectoryPostCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="134.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WmX-eE-tau">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post by Pages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxC-Ip-Sa3">
+                                <rect key="frame" x="8" y="11" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8q-f2-rFd">
+                                <rect key="frame" x="225" y="0.0" width="90" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="InM-cA-2lt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="ALL POSTS" image="icoArrowRightSlim"/>
+                                <connections>
+                                    <action selector="didTapOnViewAll:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7Mo-KX-sSX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27450980390000002" green="0.22352941179999999" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="q8q-f2-rFd" secondAttribute="bottom" id="5DO-Ru-HdE"/>
+                            <constraint firstAttribute="trailing" secondItem="q8q-f2-rFd" secondAttribute="trailing" constant="5" id="Eiq-T9-lxf"/>
+                            <constraint firstItem="gxC-Ip-Sa3" firstAttribute="centerY" secondItem="WmX-eE-tau" secondAttribute="centerY" id="GnB-0F-szm"/>
+                            <constraint firstItem="q8q-f2-rFd" firstAttribute="top" secondItem="WmX-eE-tau" secondAttribute="top" id="YZV-nj-7S8"/>
+                            <constraint firstAttribute="height" constant="44" id="hg9-Jo-RWy"/>
+                            <constraint firstItem="gxC-Ip-Sa3" firstAttribute="leading" secondItem="WmX-eE-tau" secondAttribute="leading" constant="8" id="zaC-V3-8MK"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bL-Fe-9xn" userLabel="View - No Posts">
+                        <rect key="frame" x="0.0" y="44" width="320" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Posts Available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYG-CL-O8R">
+                                <rect key="frame" x="90" y="34" width="141" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.56862745100000001" green="0.54117647059999996" blue="0.71764705880000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="2Bb-Of-sDj"/>
+                            <constraint firstItem="iYG-CL-O8R" firstAttribute="centerX" secondItem="5bL-Fe-9xn" secondAttribute="centerX" id="RVd-UH-naD"/>
+                            <constraint firstItem="iYG-CL-O8R" firstAttribute="centerY" secondItem="5bL-Fe-9xn" secondAttribute="centerY" id="e0t-Bb-c6S"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E7r-hX-x4F" userLabel="View - Posts">
+                        <rect key="frame" x="0.0" y="44" width="320" height="90"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gXM-Jz-ffq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="KGk-i7-Jjw" id="0Hm-nL-aLx"/>
+                                    <outlet property="delegate" destination="KGk-i7-Jjw" id="t1X-30-9Hj"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gXM-Jz-ffq" firstAttribute="top" secondItem="E7r-hX-x4F" secondAttribute="top" id="026-Cl-p5o"/>
+                            <constraint firstItem="gXM-Jz-ffq" firstAttribute="leading" secondItem="E7r-hX-x4F" secondAttribute="leading" id="5TJ-aj-Jsj"/>
+                            <constraint firstAttribute="trailing" secondItem="gXM-Jz-ffq" secondAttribute="trailing" id="KaS-rF-GAj"/>
+                            <constraint firstAttribute="bottom" secondItem="gXM-Jz-ffq" secondAttribute="bottom" id="TPl-U6-Vzm"/>
+                            <constraint firstAttribute="height" constant="90" id="woe-DJ-Raa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="E7r-hX-x4F" firstAttribute="top" secondItem="WmX-eE-tau" secondAttribute="bottom" id="0wO-J0-GjJ"/>
+                    <constraint firstAttribute="bottom" secondItem="E7r-hX-x4F" secondAttribute="bottom" id="4lt-xp-KjL"/>
+                    <constraint firstAttribute="trailing" secondItem="E7r-hX-x4F" secondAttribute="trailing" id="6bk-Oi-QHA"/>
+                    <constraint firstAttribute="bottom" secondItem="5bL-Fe-9xn" secondAttribute="bottom" id="LH2-L9-3w6"/>
+                    <constraint firstItem="E7r-hX-x4F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="euR-Mo-wHS"/>
+                    <constraint firstItem="5bL-Fe-9xn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fjR-eM-7W1"/>
+                    <constraint firstAttribute="trailing" secondItem="5bL-Fe-9xn" secondAttribute="trailing" id="hnb-YE-h4p"/>
+                    <constraint firstItem="5bL-Fe-9xn" firstAttribute="top" secondItem="WmX-eE-tau" secondAttribute="bottom" id="pDh-z5-9Ep"/>
+                    <constraint firstAttribute="trailing" secondItem="WmX-eE-tau" secondAttribute="trailing" id="qSG-Va-wgt"/>
+                    <constraint firstItem="WmX-eE-tau" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ra8-Nj-v4Z"/>
+                    <constraint firstItem="WmX-eE-tau" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tOi-u4-10b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btViewAll" destination="q8q-f2-rFd" id="fy5-2H-Dqf"/>
+                <outlet property="constraintNoPostViewHeight" destination="2Bb-Of-sDj" id="Rex-Cp-46L"/>
+                <outlet property="constraintPostViewHeight" destination="woe-DJ-Raa" id="5SO-SH-uJC"/>
+                <outlet property="tbPostPageList" destination="gXM-Jz-ffq" id="D9P-ht-JYH"/>
+                <outlet property="vwNoResult" destination="5bL-Fe-9xn" id="bCV-Aj-E1S"/>
+                <outlet property="vwPosts" destination="E7r-hX-x4F" id="efW-LE-Nj0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icoArrowRightSlim" width="7" height="11"/>
+    </resources>
+</document>

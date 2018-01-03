@@ -1,0 +1,6 @@
+framework module Parus {
+  umbrella header "Parus-umbrella.h"
+
+  export *
+  module * { export * }
+}

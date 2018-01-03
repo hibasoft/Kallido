@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FriendListCell" rowHeight="59" id="6IJ-R6-LPo" customClass="FriendListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6IJ-R6-LPo" id="8zH-zg-qjj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upic-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="SFU-DF-r2H" customClass="KLImageView">
+                        <rect key="frame" x="10" y="4" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="5kl-dk-fn3"/>
+                            <constraint firstAttribute="height" constant="50" id="e82-Sa-XHW"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="online" translatesAutoresizingMaskIntoConstraints="NO" id="MEi-4Y-lkb">
+                        <rect key="frame" x="292" y="24" width="12" height="12"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="PmM-wu-clD"/>
+                            <constraint firstAttribute="height" constant="12" id="l36-9r-oeb"/>
+                        </constraints>
+                    </imageView>
+                    <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leonore Cantly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jIt-fO-YzP">
+                        <rect key="frame" x="65" y="10" width="210" height="19"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="9rw-Il-JmT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Online" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVF-Sx-bJ1">
+                        <rect key="frame" x="65" y="30" width="210" height="17"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="kzi-hQ-deq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.58039218189999997" green="0.58039218189999997" blue="0.58039218189999997" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tno-9d-a8q">
+                        <rect key="frame" x="277" y="0.0" width="43" height="59"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="59" id="exO-zz-lSQ"/>
+                            <constraint firstAttribute="width" constant="43" id="gjZ-Na-eVO"/>
+                        </constraints>
+                        <state key="normal" image="add_friend">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="pressAddBtn:" destination="6IJ-R6-LPo" eventType="touchUpInside" id="q8N-Aj-tfb"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="jIt-fO-YzP" firstAttribute="top" secondItem="8zH-zg-qjj" secondAttribute="top" constant="10" id="07V-7K-HNA"/>
+                    <constraint firstItem="tno-9d-a8q" firstAttribute="top" secondItem="8zH-zg-qjj" secondAttribute="top" id="2Jg-yo-tDA"/>
+                    <constraint firstItem="aVF-Sx-bJ1" firstAttribute="top" secondItem="jIt-fO-YzP" secondAttribute="bottom" constant="1" id="4v3-fC-Nxz"/>
+                    <constraint firstAttribute="trailing" secondItem="tno-9d-a8q" secondAttribute="trailing" id="7gT-uE-Oy1"/>
+                    <constraint firstItem="SFU-DF-r2H" firstAttribute="top" secondItem="8zH-zg-qjj" secondAttribute="top" constant="4" id="DA6-Zh-SsT"/>
+                    <constraint firstItem="aVF-Sx-bJ1" firstAttribute="leading" secondItem="SFU-DF-r2H" secondAttribute="trailing" constant="5" id="Kso-32-d0D"/>
+                    <constraint firstItem="SFU-DF-r2H" firstAttribute="leading" secondItem="8zH-zg-qjj" secondAttribute="leading" constant="10" id="Vdf-0i-HXL"/>
+                    <constraint firstItem="tno-9d-a8q" firstAttribute="leading" secondItem="aVF-Sx-bJ1" secondAttribute="trailing" constant="2" id="XHX-TN-drr"/>
+                    <constraint firstAttribute="trailing" secondItem="MEi-4Y-lkb" secondAttribute="trailing" constant="16" id="mN0-6e-Za6"/>
+                    <constraint firstItem="MEi-4Y-lkb" firstAttribute="top" secondItem="8zH-zg-qjj" secondAttribute="top" constant="24" id="qY8-00-H57"/>
+                    <constraint firstItem="jIt-fO-YzP" firstAttribute="leading" secondItem="SFU-DF-r2H" secondAttribute="trailing" constant="5" id="uBc-W9-oeX"/>
+                    <constraint firstItem="tno-9d-a8q" firstAttribute="leading" secondItem="jIt-fO-YzP" secondAttribute="trailing" constant="2" id="ypv-fT-UZ1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addToFriendsButton" destination="tno-9d-a8q" id="aI2-AS-2LP"/>
+                <outlet property="descriptionLabel" destination="aVF-Sx-bJ1" id="bFy-mf-stQ"/>
+                <outlet property="klImageView" destination="SFU-DF-r2H" id="lX5-9g-NRB"/>
+                <outlet property="onlineCircle" destination="MEi-4Y-lkb" id="Now-n9-a8V"/>
+                <outlet property="titleLabel" destination="jIt-fO-YzP" id="fon-dO-c10"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="add_friend" width="24" height="24"/>
+        <image name="online" width="13" height="13"/>
+        <image name="upic-placeholder" width="64" height="64"/>
+    </resources>
+</document>
