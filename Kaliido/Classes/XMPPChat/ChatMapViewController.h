@@ -2,7 +2,7 @@
 //  MapViewController.h
 //  Kaliido
 //
-//  Learco on 6/18/16.
+//  Hiba on 6/18/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

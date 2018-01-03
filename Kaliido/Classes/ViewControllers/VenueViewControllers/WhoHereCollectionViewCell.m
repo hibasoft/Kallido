@@ -2,7 +2,7 @@
 //  WhoHereCollectionViewCell.m
 //  Kaliido
 //
-//  Created by Learco R on 5/25/16.
+//  Created by Hiba R on 5/25/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

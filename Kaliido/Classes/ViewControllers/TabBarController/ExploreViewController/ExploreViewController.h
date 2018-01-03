@@ -2,7 +2,7 @@
 //  ExploreViewController.h
 //  Kaliido
 //
-//  Created by Learco on 9/19/16.
+//  Created by Hiba on 9/19/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

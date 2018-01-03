@@ -2,7 +2,7 @@
 //  KLXMPPTool.h
 //  Kaliido
 //
-//  Created by Learco R on 8/6/2016.
+//  Created by Hiba R on 8/6/2016.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

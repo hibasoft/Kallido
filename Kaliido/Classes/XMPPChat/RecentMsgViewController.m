@@ -2,7 +2,7 @@
 //  RecentMsgViewController.m
 //  XMPPChat
 //
-//  Learco on 6/20/16.
+//  Hiba on 6/20/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

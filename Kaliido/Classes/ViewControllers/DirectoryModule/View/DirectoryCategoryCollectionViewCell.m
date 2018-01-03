@@ -2,7 +2,7 @@
 //  DirectoryCategoryCollectionViewCell.m
 //  Kaliido
 //
-//  Learco on 8/2/16.
+//  Hiba on 8/2/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

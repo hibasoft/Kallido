@@ -2,7 +2,7 @@
 //  KLPieChartView.h
 //  Kaliido
 //
-//  Created by Learco on 9/22/16.
+//  Created by Hiba on 9/22/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

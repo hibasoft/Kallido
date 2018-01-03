@@ -2,7 +2,7 @@
 //  PrivacyViewController.m
 //  Kaliido
 //
-//  Learco on 9/19/16.
+//  Hiba on 9/19/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

@@ -121,7 +121,7 @@
 - (void)updateProfileView {
     
     
-    //add learco : show headline & interest field
+    //add Hiba : show headline & interest field
     NSString* tmpHeadLine = [self.profileDic objectForKey:@"headLine"];
     
     if(tmpHeadLine != nil && ![tmpHeadLine isEqual:[NSNull null]])

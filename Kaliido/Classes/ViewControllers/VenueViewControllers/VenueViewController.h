@@ -2,7 +2,7 @@
 //  VenueViewController.h
 //  Kaliido
 //
-//  Created by Learco R on 5/24/16.
+//  Created by Hiba R on 5/24/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 

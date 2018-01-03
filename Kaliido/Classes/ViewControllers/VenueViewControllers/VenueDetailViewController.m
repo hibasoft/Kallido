@@ -2,7 +2,7 @@
 //  KLVenueDetailViewController.m
 //  Kaliido
 //
-//  Created by Learco R on 5/24/16.
+//  Created by Hiba R on 5/24/16.
 //  Copyright © 2016 Kaliido. All rights reserved.
 //
 
@@ -46,7 +46,7 @@ static NSString * const reuseIdentifierWhoHere = @"WhoHereCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.peopleArray = @[@"Benjamin" , @"Learco", @"Robbie", @"Vadim", @"Egor"];
+    self.peopleArray = @[@"Benjamin" , @"Hiba", @"Robbie", @"Vadim", @"Egor"];
 
     self.checkinTableView.hidden = false;
     self.whohereCollectionView.hidden = true;

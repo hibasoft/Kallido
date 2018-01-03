@@ -2,7 +2,7 @@
 //  EventTableViewCell.m
 //  Kaliido
 //
-//  Learco on 1/8/17.
+//  Hiba on 1/8/17.
 //  Copyright © 2017 Kaliido. All rights reserved.
 //
 
